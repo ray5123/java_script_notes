@@ -12,7 +12,7 @@ display=eval(display);
 $('.display input').val(display);
 
 });
-$('.operation input[type=AC]').click(function(){
+$('.operator[value="AC"]').click(function(){
     display=''
     $('.display input').val(display);
     
