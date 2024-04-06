@@ -13,7 +13,7 @@ $('.display input').val(display);
 
 });
 $('.operator[value="AC"]').click(function(){
-    display=''
+    display='';
     $('.display input').val(display);
     
     });
